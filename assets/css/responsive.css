@@ -1,0 +1,118 @@
+/* PC and tablet */
+@media (min-width: 46.25em){
+    #header .menu-btn{
+        display: none;
+    }
+}
+/* Mobile & tablet */
+@media (max-width: 63.9375em){
+    .subnav li{
+        padding: 5px;
+    }
+    .contact-inf {
+        line-height: 2;
+    }
+    .contact-form .form-control {
+        padding: 14px;
+    }
+    #footer .social-list >a {
+        font-size:34px;
+        margin: 0 8px;
+    }
+    .copyright >a, .copyright {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .places-list .ticket-price {
+        padding: 13px 26px;
+    }
+}
+/* PC */
+@media (min-width: 64em){
+    .modal-container{
+        position: absolute;
+        min-width: 900px;  
+    }
+}
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .contact-form .inf-send {
+        padding: 16px 32px;
+    }
+    .modal-container{
+        position: absolute;
+        min-width: 46.25em;
+        padding: 0 55px;
+    }
+}
+/* Mobile */
+@media (max-width:46.1875em){
+    /* Modal */
+    .modal-container{
+        position: absolute;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* header */
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+    }
+    #nav >li{
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav li { 
+        display: block;
+    }
+    #nav .subnav li a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    /* Slider */
+    #sliders .text-content{
+        display:none;
+    }
+    /* Member list */
+    #content .member-item img{
+        width: 60%;
+    }
+    /* Tour */
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    /* Contact */
+    .contact-content{
+        width: 100%; 
+        margin-top: 40px;
+    }
+    .contact-inf{
+        width: 100%;
+        padding-bottom: 16px;
+        font-size:18px;
+    }
+    .text-input{
+        padding-top: 8px;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+    .contact-form .inf-send{
+        background-color:#000;
+        border:none;
+        padding: 16px 32px;
+    }
+}
